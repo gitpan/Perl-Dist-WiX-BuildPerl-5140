@@ -1,0 +1,31 @@
+---
+abstract: Files and code for building Perl 5.14.0
+author:
+  - 'Curtis Jewell <CSJewell@cpan.org>'
+build_requires:
+  Test::More: 0.88
+configure_requires:
+  Module::Build: 0.36
+dynamic_config: 1
+generated_by: 'Module::Build version 0.38, CPAN::Meta::Converter version 2.110440'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Perl-Dist-WiX-BuildPerl-5140
+provides:
+  Perl::Dist::WiX::BuildPerl::5140:
+    file: lib/Perl/Dist/WiX/BuildPerl/5140.pm
+    version: 1.500
+requires:
+  File::ShareDir: 1.02
+  Moose::Role: 2.00
+  Perl::Dist::WiX: 1.500
+  perl: 5.010
+resources:
+  bugtracker: http://rt.cpan.org/NoAuth/ReportBug.html?Queue=Perl-Dist-WiX
+  homepage: http://www.curtisjewell.name/perl/
+  license: http://dev.perl.org/licenses/
+  repository: http://hg.curtisjewell.name/Perl-Dist-WiX-BuildPerl-5140/
+  x_IRC: irc://irc.perl.org/#win32
+version: 1.500
